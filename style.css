@@ -25,7 +25,7 @@ header {
 
 header nav {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   position: absolute;
   z-index: 1;
   display: flex;
@@ -37,15 +37,34 @@ header nav {
   background-color: transparent;
 }
 
-header nav li {
+header nav ul {
   list-style-type: none;
   padding: 10px;
   margin: 0 80px;
+  display: block;
 }
 
-header nav li ul {
+header nav ul li {
   float: left;
   margin: 0 70px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.2s ease;
+  display: block;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+header nav ul li a:hover {
+  color: black;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  display: inline-block;
+  transition: 0.5s linear;
 }
 
 header img {
@@ -330,8 +349,8 @@ header img {
 }
 
 /*Stopka - jakieś kontakty(facebook, in, GitHub*/
-/* footer{
- height: 40vh;
- background-color:  rgb(15, 14, 14);
- line-height: 40vh;
-} */
+footer {
+  height: 40vh;
+  background-color: rgb(15, 14, 14);
+  line-height: 40vh;
+}
