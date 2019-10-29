@@ -216,6 +216,7 @@ header img {
   min-height: 100vh;
   padding: 2%;
   text-align: center;
+  overflow: hidden;
 }
 
 .about-me h1 {
@@ -251,6 +252,7 @@ header img {
   font-size: 27px;
   line-height: 45px;
   font-style: italic;
+  overflow: hidden;
 }
 
 .about-me .photo {
@@ -262,61 +264,15 @@ header img {
   float: left;
   position: relative;
   left: 20%;
+  transition: 2s ease;
 }
 
-/*---------------------- CV ------------------ */
-
-.cv {
-  background-color: rgb(172, 173, 219);
-  min-height: 100vh;
-}
-
-.edu {
-  padding: 50px;
-  font-size: 80px;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.listedu {
-  list-style: none;
-}
-
-.now {
-  font-weight: normal;
-  margin: 50px;
-  padding: 5px;
-  border: 5px solid rgb(23, 42, 77);
-  border-radius: 50px;
-  font-size: 40px;
-  text-transform: none;
-}
-
-.now-time {
-  line-height: 12vh;
-  float: left;
-  padding-left: 10%;
-  font-weight: 700;
-}
-
-.now-time-text {
-  line-height: 12vh;
-}
-
-.now-time-opis {
-  font-size: 25px;
-  margin-left: 40%;
-  border-radius: 50px;
-  background-color: rgb(110, 111, 168);
-}
-
-.info {
-  font-size: 25px;
-}
-.info .strony {
-  color: blue;
-  text-decoration-line: none;
+.about-me .photo:hover {
+  height: 200px;
+  width: 100%;
+  max-width: 200px;
+  transform: rotate(360deg);
+  transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 /* O jakieś przykłady */
@@ -341,16 +297,16 @@ header img {
 }
 
 /* Może jakaś mapka hmmm albo jakies pozostałe rzeczy */
-.other {
+/* .other {
   background-color: rgb(157, 240, 140);
   height: 60vh;
   line-height: 30vh;
   font-size: 60px;
-}
+} */
 
 /*Stopka - jakieś kontakty(facebook, in, GitHub*/
 footer {
-  height: 40vh;
-  background-color: rgb(15, 14, 14);
+  height: 50vh;
+  background-color: rgb(20, 20, 24);
   line-height: 40vh;
 }
