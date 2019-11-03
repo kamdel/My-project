@@ -281,17 +281,33 @@ header img {
 
 /*Stopka - jakieś kontakty(facebook, in, GitHub*/
 footer {
-  height: 100vh;
+  height: 90vh;
   background-color: rgb(20, 20, 24);
-  line-height: 40vh;
+  color: whitesmoke;
+  font-size: 30px;
 }
 
 .cont .kontakty {
-  width: 30%;
-  height: 30%;
-  border: blue 2px solid;
-  margin: 20px 30px;
-  position: relative;
+  float: left;
+}
+
+.cont .icony {
+  margin: 50px 500px;
+}
+
+.cont .icony img {
+  width: 100px;
+  float: left;
+}
+
+.cont span {
+  margin: 10px;
+  line-height: 100px;
+}
+
+.cont span a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 article {
@@ -299,5 +315,5 @@ article {
   background-color: rgb(20, 19, 19);
   text-align: center;
   line-height: 50px;
-  color: red;
+  color: whitesmoke;
 }
