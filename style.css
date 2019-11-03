@@ -279,39 +279,19 @@ header img {
   transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* O jakieś przykłady */
-/* .hobby {
-  background-color: rgb(231, 231, 241);
-  min-height: 100vh;
-  padding: 20px;
-}
-
-.hobby .tab-hobby {
-  border: 2px solid green;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-}
-
-.hobby img {
-} */
-
-/* Może jakaś mapka hmmm albo jakies pozostałe rzeczy */
-/* .other {
-  background-color: rgb(157, 240, 140);
-  height: 60vh;
-  line-height: 30vh;
-  font-size: 60px;
-} */
-
 /*Stopka - jakieś kontakty(facebook, in, GitHub*/
 footer {
   height: 100vh;
   background-color: rgb(20, 20, 24);
   line-height: 40vh;
+}
+
+.cont .kontakty {
+  width: 30%;
+  height: 30%;
+  border: blue 2px solid;
+  margin: 20px 30px;
+  position: relative;
 }
 
 article {
