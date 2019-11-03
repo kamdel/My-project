@@ -245,6 +245,10 @@ header img {
   line-height: 50px;
 }
 
+.about-me .name-test .texts span {
+  font-style: normal;
+}
+
 .about-me .texts {
   position: relative;
   top: 80px;
@@ -276,25 +280,24 @@ header img {
 }
 
 /* O jakieś przykłady */
-.hobby {
+/* .hobby {
   background-color: rgb(231, 231, 241);
   min-height: 100vh;
   padding: 20px;
 }
 
-.hobby .html {
-  width: 45%;
-  height: 50%;
-}
-.hobby .css {
-  width: 45%;
-  height: 50%;
+.hobby .tab-hobby {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
 
-.hobby .js {
-  width: 45%;
-  height: 50%;
-}
+.hobby img {
+} */
 
 /* Może jakaś mapka hmmm albo jakies pozostałe rzeczy */
 /* .other {
@@ -306,7 +309,15 @@ header img {
 
 /*Stopka - jakieś kontakty(facebook, in, GitHub*/
 footer {
-  height: 50vh;
+  height: 100vh;
   background-color: rgb(20, 20, 24);
   line-height: 40vh;
+}
+
+article {
+  color: whitesmoke;
+  font-size: 20px;
+  background-color: rgb(20, 19, 19);
+  text-align: center;
+  line-height: 50px;
 }
